@@ -2,10 +2,6 @@ from fbchat import Client, log
 from fbchat.models import *
 import apiai, codecs, json
 
-
-
-
-
 class Jarvis(Client):
 
     def apiaiCon(self):
